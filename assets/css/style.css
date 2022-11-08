@@ -1,0 +1,108 @@
+:root {
+    --background: rgb(80, 80, 80);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--background)
+}
+
+header {
+    text-align: center;;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-top: 20px;;
+    color: limegreen;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 3px black;
+}
+
+header p {
+    font-size: 20px;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    line-height: 1.5;
+}
+
+main {
+    margin: 10px;
+    margin-top: 40px;
+    /* border: 5px solid black; */
+    border-radius: 30px;
+    height: 700px;
+}
+
+main section {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main section div {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    border: 3px dashed black;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main section div h2 {
+    display: block;
+    margin:  auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+    font-size: 25px;
+    margin-top: -27px;
+    margin-bottom: 20px;
+    background-color: var(--background);
+    color: limegreen;
+    text-shadow: 2px 2px 3px black;
+}
+
+main section div p {
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.code-block {
+    text-align: left;
+    line-height: 1.5;
+    background-color: limegreen;
+    background: linear-gradient(limegreen, rgb(61, 61, 61));
+    border-radius: 10px;
+    padding: 20px;
+}
+
+code {
+    display: flex;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.glow:hover,
+.glow:hover .glow-title {
+    box-shadow: 0 0 10px limegreen;
+    border-radius: 5px;
+}
