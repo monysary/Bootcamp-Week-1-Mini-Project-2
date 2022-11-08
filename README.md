@@ -1,1 +1,1 @@
-# Bootcamp-Week-1-Mini-Project-2
+# CSS-Snippet-Cheat-Sheet
